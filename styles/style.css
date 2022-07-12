@@ -50,15 +50,15 @@ body {
 }
 
 .topnav .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-   background-color: #a08912;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-    border: 1px solid white;
+float: right;
+padding: 6px 10px;
+margin-top: 8px;
+margin-right: 16px;
+background-color: #a08912;
+font-size: 17px;
+border: none;
+cursor: pointer;
+border: 1px solid white;
     
 }
 
@@ -73,6 +73,16 @@ body {
     width: 20%;
     
     padding-right: 20px;
+}
+
+.leftcolumn a{
+   text-decoration: none;
+    text-align: center;
+}
+
+.leftcolumn h2{
+   text-decoration: none;
+    text-align: center;
 }
 
  .leftcolumn img
@@ -90,6 +100,14 @@ body {
 
 }
 
+#ltitle
+{
+    text-decoration: none;
+    
+
+}
+
+
  .middlecolumn img
   {
     width: 100%;
@@ -99,10 +117,9 @@ body {
 
 /* Right column */
 .rightcolumn {
-    float: left;
-    width: 20%;
-   
-    padding-left: 20px;
+float: left;
+width: 20%;
+padding-left: 20px;
 
 }
 
@@ -111,6 +128,16 @@ body {
     width: 100%;
     padding: 5px;
     height: 100x;
+}
+
+.rightcolumn a{
+   text-decoration: none;
+    text-align: center;
+}
+
+.rightcolumn h2{
+   text-decoration: none;
+    text-align: center;
 }
 
 

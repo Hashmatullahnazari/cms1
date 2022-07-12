@@ -19,19 +19,19 @@
         $post_date = $row_posts['post_date'];
         $post_author = $row_posts['post_author'];
         $post_image = $row_posts['post_image'];
-        $post_content = $row_posts['post_content'];
+        $post_content = substr($row_posts['post_content'],0,300);
 
         
         echo "  
             <div class='card'>
-                <h2>$post_title</h2>
+                <h2><a id='ltitle' href='details.php?post=post_id'>$post_title</a></h2>
                  <h5>$post_author</h5>
                 <h5>$post_date</h5>
                 
                 <div><img src='admin/fresh_images/$post_image'></div>
                
-                <p>$post_content</p>
-                
+                <p>$post_content <a href='details.php?post=post_id'>Read More
+                </a></p>
             </div>";
     
     }

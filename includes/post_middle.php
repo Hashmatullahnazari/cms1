@@ -1,9 +1,8 @@
+<div class="middlecolumn">
+    
 
-          
-
-          <div class="middlecolumn">
-           
     <?php
+      $get_posts = "select * from posts order by rand() LIMIT 0,6";
     include('includes/database.php');
 
     $get_posts = "select * from posts";
@@ -30,11 +29,13 @@
                 
                 <div><img src='admin/fresh_images/$post_image'></div>
                
-                <p>$post_content <a href='details.php?post=post_id'>Read More
+                <p>$post_content <br><a class='btn' href='details.php?post=post_id'>Read More
                 </a></p>
-            </div>";
+            </div>
+            
+            ";
     
     }
     ?>
-            
-        </div>
+
+</div>
